@@ -1,4 +1,14 @@
+image:
+- Visual Studio 2013
 version: 0.50b.{build}
+dotnet_csproj:
+  patch: true
+  file: '*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
 skip_tags: true
 build:
   verbosity: minimal
