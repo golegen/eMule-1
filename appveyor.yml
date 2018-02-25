@@ -1,0 +1,4 @@
+version: 0.50b.{build}
+skip_tags: true
+build:
+  verbosity: minimal
