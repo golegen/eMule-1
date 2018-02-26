@@ -1,9 +1,9 @@
-image: Visual Studio 2010
+image: Visual Studio 2013
 version: 0.50b.{build}
 configuration: Debug
 platform: x86
 build:
-  project: emule_vc9.sln
+  project: emule_vc12.sln
   parallel: true
   verbosity: normal
 
